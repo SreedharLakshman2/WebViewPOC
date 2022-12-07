@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let dictionary = NSDictionary(object: "https://developers.whatismybrowser.com/useragents/parse/819115-safari-ios-iphone-webkit", forKey: "UserAgent" as NSCopying)
+//        UserDefaults.standard.register(defaults: dictionary as! [String : Any])
         return true
     }
 
