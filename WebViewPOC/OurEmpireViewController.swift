@@ -14,11 +14,6 @@ class OurEmpireViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let myURL = URL(string: "https://pvfashions.org/movies")
-        if let request = myURL {
-            let myRequest = URLRequest(url: request)
-            webView.load(myRequest)
-         }
     }
     override func viewWillAppear(_ animated: Bool) {
         let myURL = URL(string: "https://pvfashions.org/movies")
