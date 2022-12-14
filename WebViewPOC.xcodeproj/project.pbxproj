@@ -14,7 +14,7 @@
 		F426D1D729472D3E00F3EC9D /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426D1D629472D3E00F3EC9D /* PushNotificationManager.swift */; };
 		F468E963293DB145003E205E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E962293DB145003E205E /* AppDelegate.swift */; };
 		F468E965293DB145003E205E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E964293DB145003E205E /* SceneDelegate.swift */; };
-		F468E967293DB145003E205E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E966293DB145003E205E /* ViewController.swift */; };
+		F468E967293DB145003E205E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E966293DB145003E205E /* HomeViewController.swift */; };
 		F468E96A293DB145003E205E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F468E968293DB145003E205E /* Main.storyboard */; };
 		F468E96D293DB146003E205E /* WebViewPOC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F468E96B293DB146003E205E /* WebViewPOC.xcdatamodeld */; };
 		F468E96F293DB14D003E205E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F468E96E293DB14D003E205E /* Assets.xcassets */; };
@@ -22,6 +22,9 @@
 		F468E97D293DB14F003E205E /* WebViewPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E97C293DB14F003E205E /* WebViewPOCTests.swift */; };
 		F468E987293DB14F003E205E /* WebViewPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E986293DB14F003E205E /* WebViewPOCUITests.swift */; };
 		F468E989293DB14F003E205E /* WebViewPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468E988293DB14F003E205E /* WebViewPOCUITestsLaunchTests.swift */; };
+		F4E245702949EA590084A4E8 /* OurEmpireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E2456F2949EA590084A4E8 /* OurEmpireViewController.swift */; };
+		F4E245722949EA700084A4E8 /* LiveTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E245712949EA700084A4E8 /* LiveTVViewController.swift */; };
+		F4E245742949EA840084A4E8 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E245732949EA840084A4E8 /* BrandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,7 @@
 		F468E95F293DB145003E205E /* WebViewPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F468E962293DB145003E205E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F468E964293DB145003E205E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F468E966293DB145003E205E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F468E966293DB145003E205E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F468E969293DB145003E205E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F468E96C293DB146003E205E /* WebViewPOC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebViewPOC.xcdatamodel; sourceTree = "<group>"; };
 		F468E96E293DB14D003E205E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +70,9 @@
 		F468E982293DB14F003E205E /* WebViewPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F468E986293DB14F003E205E /* WebViewPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPOCUITests.swift; sourceTree = "<group>"; };
 		F468E988293DB14F003E205E /* WebViewPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4E2456F2949EA590084A4E8 /* OurEmpireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurEmpireViewController.swift; sourceTree = "<group>"; };
+		F4E245712949EA700084A4E8 /* LiveTVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTVViewController.swift; sourceTree = "<group>"; };
+		F4E245732949EA840084A4E8 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
 		FC33E639D2585FA61D59AF22 /* Pods_WebViewPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -151,7 +157,10 @@
 				F468E962293DB145003E205E /* AppDelegate.swift */,
 				F426D1D629472D3E00F3EC9D /* PushNotificationManager.swift */,
 				F468E964293DB145003E205E /* SceneDelegate.swift */,
-				F468E966293DB145003E205E /* ViewController.swift */,
+				F468E966293DB145003E205E /* HomeViewController.swift */,
+				F4E2456F2949EA590084A4E8 /* OurEmpireViewController.swift */,
+				F4E245712949EA700084A4E8 /* LiveTVViewController.swift */,
+				F4E245732949EA840084A4E8 /* BrandViewController.swift */,
 				F468E968293DB145003E205E /* Main.storyboard */,
 				F468E96E293DB14D003E205E /* Assets.xcassets */,
 				F468E970293DB14D003E205E /* LaunchScreen.storyboard */,
@@ -422,9 +431,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F468E967293DB145003E205E /* ViewController.swift in Sources */,
+				F468E967293DB145003E205E /* HomeViewController.swift in Sources */,
+				F4E245702949EA590084A4E8 /* OurEmpireViewController.swift in Sources */,
+				F4E245742949EA840084A4E8 /* BrandViewController.swift in Sources */,
 				F468E963293DB145003E205E /* AppDelegate.swift in Sources */,
 				F426D1D729472D3E00F3EC9D /* PushNotificationManager.swift in Sources */,
+				F4E245722949EA700084A4E8 /* LiveTVViewController.swift in Sources */,
 				F468E96D293DB146003E205E /* WebViewPOC.xcdatamodeld in Sources */,
 				F468E965293DB145003E205E /* SceneDelegate.swift in Sources */,
 			);
