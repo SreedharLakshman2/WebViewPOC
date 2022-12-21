@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZEG-ON-GLS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZEG-ON-GLS">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -26,12 +26,6 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09f-IW-Lqj">
-                                <rect key="frame" x="0.0" y="839" width="390" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="XRH-cK-hg7"/>
-                                </constraints>
-                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -40,9 +34,6 @@
                             <constraint firstAttribute="bottom" secondItem="ObE-Ub-7Bk" secondAttribute="bottom" constant="10" id="CGM-di-2TZ"/>
                             <constraint firstItem="ObE-Ub-7Bk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D5T-uN-g4A"/>
                             <constraint firstItem="ObE-Ub-7Bk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="I7e-F1-Db1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="09f-IW-Lqj" secondAttribute="trailing" id="Wzg-xj-Kw1"/>
-                            <constraint firstItem="09f-IW-Lqj" firstAttribute="top" secondItem="ObE-Ub-7Bk" secondAttribute="bottom" constant="5" id="cbc-sP-e52"/>
-                            <constraint firstItem="09f-IW-Lqj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l1N-tn-Vq0"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="4dq-py-w5c">
@@ -194,6 +185,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZEG-ON-GLS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GPw-qe-jy1">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
